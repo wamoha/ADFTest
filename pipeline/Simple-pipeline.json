@@ -1,6 +1,29 @@
 {
 	"name": "Simple-pipeline",
 	"properties": {
+		"activities": [
+			{
+				"name": "Simple Execute Pipeline",
+				"type": "AzureMLExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"experimentName": "wamoha-simple",
+					"mlPipelineId": "db7c152e-e434-43af-a645-d6c75776f2a9"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureMLService2",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
 		"annotations": []
 	}
 }
