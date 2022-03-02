@@ -1,0 +1,9 @@
+{
+	"name": "wamoha-adftest",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "14c296a7-a995-497a-98b5-0846eeb296b5",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
