@@ -15,8 +15,8 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"experimentName": "wamoha-simple",
-					"mlPipelineId": "db7c152e-e434-43af-a645-d6c75776f2a9"
+					"experimentName": "wamoha-simple-force",
+					"mlPipelineId": "58658bf5-3998-41f4-b8a0-e68029869328"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureMLService2",
