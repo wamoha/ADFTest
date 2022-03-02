@@ -1,0 +1,13 @@
+{
+	"name": "AzureMLService2",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMLService",
+		"typeProperties": {
+			"subscriptionId": "ad203158-bc5d-4e72-b764-2607833a71dc",
+			"resourceGroupName": "workspaceux-westcentralus",
+			"mlWorkspaceName": "wamoha-ws1",
+			"authentication": "MSI"
+		}
+	}
+}
