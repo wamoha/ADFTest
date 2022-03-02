@@ -16,6 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"experimentName": "adf-pipeline1",
+					"continueOnStepFailure": true,
 					"mlPipelineId": "84f57324-c026-47ed-8c7a-512f4c60a428"
 				},
 				"linkedServiceName": {
