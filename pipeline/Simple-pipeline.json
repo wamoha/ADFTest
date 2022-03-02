@@ -16,6 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"experimentName": "wamoha-simple-force",
+					"continueOnStepFailure": true,
 					"mlPipelineId": "58658bf5-3998-41f4-b8a0-e68029869328"
 				},
 				"linkedServiceName": {
