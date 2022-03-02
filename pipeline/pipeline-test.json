@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"experimentName": "wamoha-adf",
+					"experimentName": "wamoha-adf-test",
 					"continueOnStepFailure": true,
 					"mlPipelineId": "16bb3a8c-3f73-4a1b-b786-d2b1815545d2"
 				},
