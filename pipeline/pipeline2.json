@@ -16,6 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"experimentName": "Regenerate3",
+					"continueOnStepFailure": true,
 					"mlPipelineId": "60150b71-c12b-411e-8883-7d27ac325c85"
 				},
 				"linkedServiceName": {
