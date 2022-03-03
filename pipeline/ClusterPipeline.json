@@ -15,9 +15,9 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"experimentName": "RefreshCluster",
+					"experimentName": "RefreshClusterLatest",
 					"continueOnStepFailure": true,
-					"mlPipelineId": "2f2f8e5b-c4f6-4b91-9d57-ab1c01ee1acb"
+					"mlPipelineId": "6fd1bcfb-30df-4d80-9b12-ee7e443bd476"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureMLService11",
