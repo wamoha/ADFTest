@@ -1,0 +1,30 @@
+{
+	"name": "ClusterPipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Machine Learning Execute Pipeline1",
+				"type": "AzureMLExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"experimentName": "RefreshCluster",
+					"continueOnStepFailure": true,
+					"mlPipelineId": "2f2f8e5b-c4f6-4b91-9d57-ab1c01ee1acb"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureMLService11",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
