@@ -1,0 +1,30 @@
+{
+	"name": "pipelineWoRefresh",
+	"properties": {
+		"activities": [
+			{
+				"name": "Machine Learning Execute Pipeline1",
+				"type": "AzureMLExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"experimentName": "FromScratchNoRefresh",
+					"continueOnStepFailure": true,
+					"mlPipelineId": "130927ad-d17c-4575-8125-f73d4e054930"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureMLService10",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
