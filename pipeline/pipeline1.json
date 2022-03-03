@@ -15,8 +15,8 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"experimentName": "adf-regenerate",
-					"mlPipelineId": "5f627f2b-e172-458f-b734-5e4980837144"
+					"experimentName": "adf-regenerate-2",
+					"mlPipelineId": "77724e74-56f3-4262-a04c-e62852ec171a"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureMLService6",
